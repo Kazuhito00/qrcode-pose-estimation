@@ -24,6 +24,7 @@ python 01_calibrate_camera.py --square_len=23.0
 ```
 キャリブレーションパターン検出時にEnterを押すことで撮影します。<Br>
 ESCを押すことでプログラムを終了し、キャリブレーションパラメータを保存します。<Br>
+注意：--square_lenの単位はmmです<br>
 
 実行時には、以下のオプションが指定可能です。
 <details>
@@ -65,6 +66,7 @@ use_autoappend指定時の撮影間隔(ms)<br>
 ```bash
 python 02_qrcode_pose_estimation.py --qr_size=8.7
 ```
+注意：--qr_sizeの単位はcmです<br>
 
 実行時には、以下のオプションが指定可能です。
 <details>
