@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# bat
+*.bat
+
+# csv
+d.csv
+K.csv
